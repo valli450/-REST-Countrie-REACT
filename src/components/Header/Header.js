@@ -9,7 +9,7 @@ function Header(){
     return (
         <div className="header">
             <div className="header__text">
-                <a href="../App.js">Where in the world?</a>
+                <a href="https://valli450.github.io/-REST-Countrie-REACT/">Where in the world?</a>
             </div>
             <div className="header__dark-mode-text" onClick={darkMode}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="ionicon moon" width="16px" height="16px" viewBox="0 0 512 512">
