@@ -1,0 +1,101 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap'); 
+  
+/* Style */
+.header{
+    height: 5rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: background-color 1s;
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,.25);
+}
+
+.header__text{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__text a{
+    color: #111517;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    transition: color 1s;
+    text-decoration: none;
+
+}
+
+.header__dark-mode-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.header__dark-mode-text .moon{
+    width: 13px;
+    height: 13px;
+    transition: color 1s;
+}
+
+.header__dark-mode-text p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #111517;
+    transition: color 1s;
+}
+
+.darkMode .header{
+    background-color: var(--dark-blue);
+}
+
+.darkMode .header__text a{
+    color: #fff;
+}
+
+.darkMode .header__dark-mode-text .moon{
+    color: #fff;
+}
+
+.darkMode .header__dark-mode-text p{
+    color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+    .header{
+        padding: 0 5rem;
+    }
+    
+    .header__text h1{
+        font-size: 24px;
+        line-height: auto;
+    
+    }
+    
+    .header__dark-mode-text{
+        gap: 0.5rem;
+    }
+    
+    .header__dark-mode-text svg{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .header__dark-mode-text p{
+        font-size: 16px;
+    }
+}

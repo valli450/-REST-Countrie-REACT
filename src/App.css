@@ -1,0 +1,21 @@
+/* CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap'); 
+
+/* Style */
+.whale-section{
+  background: hsl(0, 0%, 98%);
+  transition: background-color 0.8s;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.darkMode .whale-section{
+  background-color: #202c37;
+}

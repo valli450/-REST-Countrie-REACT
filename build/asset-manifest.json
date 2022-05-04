@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/REST-Countrie-REACT/static/css/main.1374e0d4.css",
+    "main.js": "/REST-Countrie-REACT/static/js/main.0e68a85e.js",
+    "index.html": "/REST-Countrie-REACT/index.html",
+    "main.1374e0d4.css.map": "/REST-Countrie-REACT/static/css/main.1374e0d4.css.map",
+    "main.0e68a85e.js.map": "/REST-Countrie-REACT/static/js/main.0e68a85e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1374e0d4.css",
+    "static/js/main.0e68a85e.js"
+  ]
+}
